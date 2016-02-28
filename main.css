@@ -52,11 +52,12 @@ table {
         Body
 
 *********************************/
-
-body {
-
+/*
+* {
+   border: 1px solid red !important;
+   box-sizing: border-box;
 }
-
+*/
 
 /*********************************
  
@@ -64,21 +65,71 @@ body {
 
 *********************************/
 
-.navbar{
-  height: 30;
+.navbar {
+  display: block;
+  min-width: 220px;
+  height: 30%;
+  padding: 0 20px 30px 20px;
 }
 
-.nav-elements {
+.nav-container {
+  display: block;
   float: right;
+}
+
+.nav-element {
+  
+  display: inline-block;
 }
 
 .apps {
   height: 30px;
   width: 30px;
   background-image: url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png");
-  display: block;
+  display: inline-block;
   background-size: 528px 68px;
   background-position: -132px -38px;
+  vertical-align: center;
+}
+
+.btn {
+  background: rgb(66,133,244);
+  color: #fff;
+  padding: 12px;
+  border-radius: 2px;
+}
+
+/*********************************
+ 
+        Logo
+
+*********************************/
+
+.logo {
+  clear: both;
+  margin-top: 89px;
+}
+
+.logo img {
+  display: block;
+  height: 92px;
+  width: 272px;
+  margin: 0 auto;
+  margin-top: 109px;
+}
+
+/*********************************
+ 
+        Search Form
+
+*********************************/
+
+
+
+.search-form {
+  margin: 0 auto;
+  display: block;
+  width: 543px;
 }
 
 
