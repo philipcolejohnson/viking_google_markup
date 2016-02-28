@@ -91,8 +91,8 @@ a:hover {
 
 .search-form {
   margin: 0 auto;
-  display: block;
   width: 543px;
+  border: 1px solid #ccc;
 }
 
 .search-btn {
@@ -101,7 +101,7 @@ a:hover {
   border-radius: 2px;
   color: rgb(117, 117, 117);
   font-weight: 700;
-  font-size: 13px;
+  font-size: inherit;
   height: 36px;
   padding: 0 16px;
   margin: 11px 4px;
@@ -112,6 +112,11 @@ a:hover {
   color: black;
 }
 
+.search-btn-container {
+  margin: 0 auto;
+  padding: 20;
+  width: 300px;
+}
 
 
 
