@@ -3,16 +3,17 @@
 
 <head>
   <title>Google</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
   <div class="navbar">
     <div class="nav-container">
-      <a class="nav-element" href="http://www.gmail.com">Gmail</a>
-      <a class="nav-element" href="http://images.google.com">Images</a>
-      <div class="apps"></div>
-      <div class="btn nav-element">Sign in</div>
+      <a href="http://www.gmail.com">Gmail</a>
+      <a href="http://images.google.com">Images</a>
+      <div class="apps"></div> 
+      <div class="nav-btn">Sign in</div>
     </div>
   </div>
 
@@ -20,12 +21,14 @@
     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
   </div>
 
-  <div class="search-form">
-    <input></input>
-    <img src="#">
-    Google Search
-    I'm feeling lucky      
-  </div>
+  <form class="search-form" action="/search" method="post">
+    <div class="search-bar">
+      <input type="text" name="search-field"></input>
+      <img src="#">
+    </div>
+    <button class="search-btn">Google Search</button>
+    <button class="search-btn">I'm feeling lucky</button>
+  </form>
 
   
 
