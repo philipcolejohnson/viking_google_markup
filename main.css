@@ -52,12 +52,12 @@ table {
         Body
 
 *********************************/
-/*
-* {
+
+div {
    border: 1px solid red !important;
    box-sizing: border-box;
 }
-*/
+
 
 body {
   font: 13px arial, sans-serif;
@@ -76,19 +76,20 @@ a {
 
 .navbar {
   display: block;
-  min-width: 220px;
-  height: 30%;
-  padding: 0 20px 30px 20px;
+  margin-top: 5px;
 }
 
 .nav-container {
   display: block;
   float: right;
+  line-height: 28px;
+  padding-right: 30px;
 }
 
-.nav-element {
-  
+.navbar a {
   display: inline-block;
+  vertical-align: center;
+  padding-right: 15px;
 }
 
 .apps {
@@ -98,21 +99,22 @@ a {
   display: inline-block;
   background-size: 528px 68px;
   background-position: -132px -38px;
-  vertical-align: center;
+  /*vertical-align: center;*/
 }
 
 .btn {
+  display: inline-block;
   background: rgb(66,133,244);
   color: #fff;
   border-radius: 2px;
-  line-height: 28px;
   padding: 0 12px 0 12px;
   font-weight: 700;
+  margin-left: 15px;
 }
 
 /*********************************
  
-        Logo
+        Google Logo
 
 *********************************/
 
