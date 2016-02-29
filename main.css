@@ -3,11 +3,11 @@
         Body
 
 *********************************/
-
+/*
 a,
 div {
    border: 1px solid #ccc !important;
-}
+}*/
 
 body {
   font: 13px arial, sans-serif;
@@ -29,7 +29,7 @@ a:hover {
 *********************************/
 
 nav {
-  margin-top: 5px;
+  margin-top: 15px;
   height: 30px;
 }
 
@@ -50,9 +50,12 @@ nav {
   height: 30px;
   width: 30px;
   display: inline-block;
+  position: relative;
+  bottom: 0;
   background: #fff url("https://ssl.gstatic.com/gb/images/i2_2ec824b0.png") 50% 50%;
   background-size: 528px 68px;
   background-position: -132px -38px;
+  vertical-align: middle;
 }
 
 .nav-btn {
@@ -72,7 +75,7 @@ nav {
 *********************************/
 
 .logo {
-  margin-top: 89px;
+  margin-top: 69px;
 }
 
 .logo img {
