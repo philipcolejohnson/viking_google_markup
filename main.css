@@ -3,10 +3,11 @@
         Body
 
 *********************************/
-/*
+
+a,
 div {
    border: 1px solid #ccc !important;
-}*/
+}
 
 body {
   font: 13px arial, sans-serif;
@@ -37,6 +38,7 @@ nav {
   float: right;
   line-height: 28px;
   padding-right: 30px;
+  position: relative;
 }
 
 .nav-container a {
@@ -90,7 +92,7 @@ nav {
 
 
 .search-form {
-  margin: 30px auto;
+  margin: 30px auto 50px auto;
   width: 1139px;
 }
 
@@ -153,7 +155,7 @@ nav {
 *********************************/
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   color: rgb(34, 34, 34);
