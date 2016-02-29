@@ -56,16 +56,26 @@ nav {
   background-size: 528px 68px;
   background-position: -132px -38px;
   vertical-align: middle;
+  opacity: .55;
+}
+
+.apps:hover {
+  opacity: .85;
 }
 
 .nav-btn {
   display: inline-block;
   background: rgb(66,133,244);
   color: #fff;
+  border: 1px solid #4285f4;
   border-radius: 2px;
   padding: 0 12px 0 12px;
   font-weight: 700;
   margin-left: 15px;
+}
+
+.nav-btn:hover {
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
 /*********************************
@@ -75,15 +85,14 @@ nav {
 *********************************/
 
 .logo {
-  margin-top: 69px;
+  margin-top: 89px;
 }
 
 .logo img {
   display: block;
   height: 92px;
   width: 272px;
-  margin: 0 auto;
-  margin-top: 109px;
+  margin: 150px auto 0 auto;
 }
 
 /*********************************
@@ -189,7 +198,3 @@ a {
 .legal-container a {
   padding-right: 40px;
 }
-
-
-
-
